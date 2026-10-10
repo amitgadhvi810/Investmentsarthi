@@ -4,7 +4,7 @@
 
   // Replace these placeholders before publishing the website.
   const CONFIG = {
-    whatsappNumber: '919999999999', // country code + number, digits only
+    whatsappNumber: '919725859287', // country code + number, digits only
     upiId: 'yourname@upi',
     businessName: 'Investment Sarthi'
   };
