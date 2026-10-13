@@ -49,3 +49,13 @@
 .business-cta{background:var(--navy);box-shadow:var(--shadow)}
 .business-home-teaser{background:var(--navy)}
 @media(max-width:700px){.business-hero{padding:34px 0 42px}.business-hero h1{letter-spacing:-1.3px}.business-actions{display:flex;flex-direction:column;align-items:stretch}.business-actions .business-secondary{justify-content:center;text-align:center}.business-cta .business-button{max-width:100%;overflow-wrap:anywhere}}
+
+/* Approved Investment Sarthi green accents for Business Insurance only */
+.business-hero .eyebrow,.business-home-teaser .eyebrow{color:#247849}
+.business-hero h1 span{color:#237c4c}
+.business-actions .business-button,.business-cta .business-button{background:#237c4c;color:#fff;box-shadow:0 8px 18px rgba(35,124,76,.18)}
+.business-actions .business-button:hover,.business-cta .business-button:hover{background:#165d38;box-shadow:0 12px 25px rgba(35,124,76,.25)}
+.business-secondary:hover{color:#237c4c}
+.business-list li{border-left-color:#237c4c}
+.business-highlight{background:#eaf5ee;border-left-color:#237c4c}
+.business-cta .eyebrow{color:#b8e4c8}
