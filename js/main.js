@@ -18,4 +18,13 @@
   nav?.addEventListener('click',e=>{if(e.target.closest('a'))close();});
   document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});
   document.body.insertAdjacentHTML('beforeend','<a class="whatsapp-float" data-wa-link href="'+whatsapp+'" target="_blank" rel="noopener noreferrer" aria-label="Request a Financial Health Checkup on WhatsApp" title="Chat on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="M7 17l1-3a6 6 0 1 1 3 2z" fill="none" stroke="white" stroke-width="1.5"/></svg></a>');
+  const consentForm = document.getElementById('checkup-enquiry');
+  consentForm?.addEventListener('submit', event => {
+    event.preventDefault();
+    if (!consentForm.reportValidity()) return;
+    const name = consentForm.elements.namedItem('name').value.trim();
+    const area = consentForm.elements.namedItem('area').value.trim();
+    const msg = 'Hello Investment Sarthi, I would like to request a 360° Financial Health Checkup.\\nName: ' + name + '\\nCity/area: ' + area;
+    window.location.href = 'https://wa.me/' + number + '?text=' + encodeURIComponent(msg);
+  });
 })();
