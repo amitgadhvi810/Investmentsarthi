@@ -20,3 +20,5 @@
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;scroll-behavior:auto!important}}
 :focus-visible{outline:3px solid #2463a5;outline-offset:3px}
+
+#checkup-enquiry{display:grid;gap:16px;margin-top:20px}#checkup-enquiry .form-field{display:grid;gap:6px}#checkup-enquiry input{width:100%;min-height:48px;border:1px solid #9aaabd;border-radius:9px;padding:10px 12px}#checkup-enquiry .button{width:100%}
