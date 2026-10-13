@@ -25,3 +25,37 @@
 
 /* Original logo placement — do not crop or recolor master asset */
 .brand-logo{display:block;width:min(280px,52vw);height:auto;max-height:64px;object-fit:contain}.brand:has(.brand-logo:not([style*="display: none"])) .brand-fallback{display:none}.footer-brand .brand-logo{width:min(340px,75vw);max-height:100px}@media(max-width:380px){.brand-logo{width:200px}}
+
+/* Business Insurance landing page */
+.business-hero{background:#102b50;color:#fff;padding:72px 0 78px}.business-hero-inner{max-width:980px}.business-hero .eyebrow{color:#9ee0ae}.business-hero h1{font:750 clamp(34px,5.2vw,62px)/1.13 var(--font-head);letter-spacing:-1.7px;max-width:880px;margin:12px 0 22px}.business-hero h1 span{color:#b7dfc5}.business-hero p:not(.eyebrow){max-width:780px;color:#e0eaf2}.business-kicker{font-weight:700}.business-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.business-actions .button{white-space:normal;text-align:center;line-height:1.35;padding:14px 20px}.business-section{padding-top:70px;padding-bottom:70px}.business-section h2{font:750 clamp(27px,3.5vw,42px)/1.2 var(--font-head);color:#102b50;max-width:900px}.business-section>p{max-width:920px}.business-soft{background:#f2f7f5}.business-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0}.business-tile,.business-list li{background:#fff;border:1px solid #d9e4e7;border-radius:16px;padding:22px;box-shadow:0 6px 24px rgba(16,43,80,.04)}.business-tile h3{margin:0 0 9px;color:#102b50;font-size:18px}.business-tile p{margin:0;color:#4e6274}.business-list{padding:0;list-style:none}.business-list li{border-left:4px solid #21804b}.business-highlight{background:#eaf5ee;padding:20px 24px;border-left:4px solid #238348;border-radius:10px}.business-disclaimer,.business-sources{font-size:13px;color:#526579}.business-sources a{text-decoration:underline;color:#145d40}.business-cta{background:#102b50;color:#fff;padding:44px;border-radius:24px}.business-cta h2{color:#fff}.business-cta p{color:#e0eaf2}.business-cta .eyebrow{color:#a8dfbb}.business-cta .business-disclaimer{font-size:12px}.business-cta .business-contact{display:inline-block;margin:16px 0;color:#fff;text-decoration:underline}.business-home-teaser{background:#102b50;border-radius:22px;padding:48px;margin-top:42px;margin-bottom:42px;color:#fff}.business-home-teaser h2{font:750 clamp(26px,3.5vw,40px)/1.2 var(--font-head);color:#fff}.business-home-teaser p:not(.eyebrow){color:#d8e4f0;max-width:730px}.business-home-teaser .eyebrow{color:#b0e1bd}@media(max-width:700px){.business-hero{padding:45px 0 52px}.business-grid{grid-template-columns:1fr}.business-section{padding-top:46px;padding-bottom:46px}.business-cta{padding:25px 20px}.business-actions{display:grid}.business-actions .button,.business-cta .button{width:100%;white-space:normal;line-height:1.4;height:auto;min-height:48px;padding:13px}.business-home-teaser{padding:27px 23px}}
+
+/* Business page: consistent with the main Investment Sarthi site */
+.business-hero{background:#f6f8fb;color:var(--ink);border-radius:0;padding:60px 0 56px}
+.business-hero-inner{max-width:1100px}
+.business-hero .eyebrow{color:var(--red)}
+.business-hero h1{font:700 clamp(34px,5.1vw,60px)/1.12 var(--font-head);color:var(--navy);letter-spacing:-2px;max-width:930px}
+.business-hero h1 span{color:var(--red)}
+.business-hero p:not(.eyebrow){color:var(--muted)}
+.business-kicker{color:var(--navy)!important;font-size:14px;font-weight:700}
+.business-soft{background:var(--wash)}
+.business-tile,.business-list li{border:1px solid var(--line);box-shadow:var(--shadow);border-radius:var(--radius)}
+.business-list li{border-left:3px solid var(--blue)}
+.business-highlight{background:var(--blue-light);border-left:3px solid var(--blue)}
+.business-actions{align-items:center}
+.business-actions .business-button,.business-cta .business-button{background:var(--red);color:#fff;border-radius:10px;box-shadow:0 8px 18px rgba(185,46,59,.18);transition:background .2s,transform .2s,box-shadow .2s}
+.business-actions .business-button:hover,.business-cta .business-button:hover{background:var(--red-dark);transform:translateY(-2px);box-shadow:0 12px 25px rgba(185,46,59,.25)}
+.business-secondary{color:var(--navy);padding:12px 8px}
+.business-secondary:hover{color:var(--red)}
+.business-cta{background:var(--navy);box-shadow:var(--shadow)}
+.business-home-teaser{background:var(--navy)}
+@media(max-width:700px){.business-hero{padding:34px 0 42px}.business-hero h1{letter-spacing:-1.3px}.business-actions{display:flex;flex-direction:column;align-items:stretch}.business-actions .business-secondary{justify-content:center;text-align:center}.business-cta .business-button{max-width:100%;overflow-wrap:anywhere}}
+
+/* Approved Investment Sarthi green accents for Business Insurance only */
+.business-hero .eyebrow,.business-home-teaser .eyebrow{color:#247849}
+.business-hero h1 span{color:#237c4c}
+.business-actions .business-button,.business-cta .business-button{background:#237c4c;color:#fff;box-shadow:0 8px 18px rgba(35,124,76,.18)}
+.business-actions .business-button:hover,.business-cta .business-button:hover{background:#165d38;box-shadow:0 12px 25px rgba(35,124,76,.25)}
+.business-secondary:hover{color:#237c4c}
+.business-list li{border-left-color:#237c4c}
+.business-highlight{background:#eaf5ee;border-left-color:#237c4c}
+.business-cta .eyebrow{color:#b8e4c8}
